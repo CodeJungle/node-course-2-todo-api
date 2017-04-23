@@ -9,7 +9,7 @@ var password = '123abc!';
 //     console.log(hash);
 //   });
 // });
-// 
+//
 var hashedPassword = '$2a$10$74QjcqI.033yRO6e.zdnQu6IwCgSBcSyjUqNnviQJanXL8AaxRwma';
 
 bcrypt.compare(password, hashedPassword, (err, res) => {
